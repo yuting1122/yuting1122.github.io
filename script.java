@@ -14,3 +14,13 @@ title.value = "";
 content.value = "";
 })
 
+function handle_click(){
+    alert("叫你按就按阿?");
+}
+var img = document.getElementById("img");
+img.addEventListener("mouseover", function(){
+    this.src = "smile.jpg";
+})
+img.addEventListener("mouseout", function(){
+    this.src = "hotpot1.jpg";
+})
